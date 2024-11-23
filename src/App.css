@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Parkinsans", sans-serif;
+}
+
+html,
+body {
+  background: radial-gradient(#1d1c1c, #1f1e1e);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
