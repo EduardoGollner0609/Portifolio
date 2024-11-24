@@ -1,0 +1,17 @@
+.navegation-options {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.navegation-options a {
+  color: #d9d9d9;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.navegation-options a:hover {
+  font-size: 18px;
+  border-bottom: 2px solid #d9d9d9;
+}

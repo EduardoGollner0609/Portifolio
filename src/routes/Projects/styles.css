@@ -1,0 +1,33 @@
+#section-projects {
+  padding: 20px 20px;
+}
+
+.projects-list {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.project-item {
+  padding: 10px 15px;
+  border: 2px solid #d9d9d9;
+  width: 350px;
+  border-radius: 20px;
+}
+
+.project-item h3 {
+  color: #d9d9d9;
+  text-align: center;
+}
+
+.project-item-img {
+  width: 100%;
+  text-align: center;
+}
+.project-item-img img {
+  height: 200px;
+  width: 280px;
+}
+
+.project-item-content p {
+  color: #d9d9d9;
+}
