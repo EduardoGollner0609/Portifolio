@@ -1,11 +1,11 @@
 import "./styles.css";
-import meImg from "../../assets/me-imagem.jpg";
-import javaIcon from "../../assets/java-icon.svg";
-import springIcon from "../../assets/spring-icon.svg";
-import htmlIcon from "../../assets/html-icon.svg";
-import cssIcon from "../../assets/css-icon.svg";
-import tpIcon from "../../assets/typescript-icon.svg";
-import reactIcon from "../../assets/react-icon.svg";
+import meImg from "../../../assets/me-imagem.jpg";
+import javaIcon from "../../../assets/java-icon.svg";
+import springIcon from "../../../assets/spring-icon.svg";
+import htmlIcon from "../../../assets/html-icon.svg";
+import cssIcon from "../../../assets/css-icon.svg";
+import tpIcon from "../../../assets/typescript-icon.svg";
+import reactIcon from "../../../assets/react-icon.svg";
 
 export default function AboutMe() {
   return (
