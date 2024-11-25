@@ -1,17 +1,24 @@
 .navegation-options {
   width: 100%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  gap: 10px;
 }
 
-.navegation-options a {
+.navegation-options-item {
+  display: flex;
+  gap: 20px;
+  margin: 15px auto;
+}
+
+.navegation-options-item a {
   color: #d9d9d9;
   font-size: 16px;
   transition: 0.3s;
 }
 
-.navegation-options a:hover {
+.navegation-options-item a:hover {
   font-size: 18px;
   border-bottom: 2px solid #d9d9d9;
 }

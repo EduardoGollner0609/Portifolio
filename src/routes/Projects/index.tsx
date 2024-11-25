@@ -5,8 +5,8 @@ export default function Projects() {
   return (
     <section id="section-projects">
       <div className="projects-list">
-        <a href="https://dscommerce-dudu.netlify.app">
-          <div className="project-item">
+        <div className="project-item">
+          <a href="https://dscommerce-dudu.netlify.app">
             <div className="project-item-img">
               <img src={dscommerceImg} alt="" />
             </div>
@@ -20,8 +20,8 @@ export default function Projects() {
                 PostgreSql)
               </p>
             </div>
-          </div>
-        </a>
+          </a>
+        </div>
       </div>
     </section>
   );

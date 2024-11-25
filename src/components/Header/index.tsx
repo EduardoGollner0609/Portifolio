@@ -9,7 +9,7 @@ export default function Header() {
       <nav>
         <div className="header-title">
           <h1>Eduardo Sousa Gollner</h1>
-          <h2>Desenvolvedor de Software</h2>
+          <h2>Desenvolvedor Fullstack</h2>
         </div>
         <div className="header-sociais-network">
           <a href="https://wa.me/5527992657127">
