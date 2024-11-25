@@ -23,7 +23,7 @@
 }
 
 .project-item:hover {
-  background-color: var(--esg-color-tertiary);
+  background-color: var(--esg-color-secondary);
 }
 
 .project-item h3 {

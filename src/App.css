@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
 
 :root {
-  --esg-color-primary: #030303;
+  --esg-color-background: linear-gradient(
+    360deg,
+    var(--esg-color-primary) 0%,
+    var(--esg-color-secondary) 100%
+  );
+  --esg-color-primary: #232323;
   --esg-color-secondary: #629485;
   --esg-color-tertiary: #fff;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -14,11 +20,7 @@
 
 html,
 body {
-  background: linear-gradient(
-    360deg,
-    var(--esg-color-primary) 10%,
-    var(--esg-color-secondary) 100%
-  );
+  background: var(--esg-color-background);
   min-height: 100vh;
 }
 
@@ -29,14 +31,14 @@ a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #232323;
+  background-color: var(--esg-color-primary);
   border-radius: 10px;
-  border: 2px solid #d9d9d9;
+  border: 2px solid var(--esg-color-secondary);
 }
 
 ::-webkit-scrollbar {
   width: 12px;
-  background-color: #232323;
+  background-color: var(--esg-color-primary);
 }
 
 @media (max-width: 960px) {

@@ -46,3 +46,10 @@
 .my-skills-soft-skills p {
   color: var(--esg-color-tertiary);
 }
+
+@media (max-width: 576px) {
+  .my-skills {
+    flex-direction: column;
+    align-items: center;
+  }
+}

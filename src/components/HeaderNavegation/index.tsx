@@ -6,8 +6,8 @@ export default function HeaderNavegation() {
     <div className="navegation-options">
       <h2>Agora me diz, quem é voce?</h2>
       <div className="navegation-options-item">
-        <NavLink to="/client">Cliente</NavLink>
-        <NavLink to="/recruiter">Recrutador</NavLink>
+        <NavLink to="/client">Sou um Cliente</NavLink>
+        <NavLink to="/recruiter">Sou um Recrutador</NavLink>
       </div>
     </div>
   );
