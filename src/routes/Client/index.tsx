@@ -12,9 +12,9 @@ export default function Client() {
         <h2>Como posso te ajudar</h2>
 
         <div className="options-my-work">
+        
           <a href="https://wa.me/5527992657127?text=Olá,%20tudo%20bem?%20Gostaria%20de%20fazer%20um%20orçamento%20para%20desenvolver%20um%20site.">
             <div className="option-my-work-item">
-
               <h3>Sites</h3>
               <p>
                 Desenvolvo sites completos, sempre pensando nos minimos detalhes
@@ -22,6 +22,7 @@ export default function Client() {
               </p>
             </div>
           </a>
+
           <a href="https://wa.me/5527992657127?text=Olá,%20tudo%20bem?%20Gostaria%20de%20fazer%20um%20orçamento%20para%20desenvolver%20uma%20landing%20page.">
             <div className="option-my-work-item">
               <h3>Landing Pages</h3>
@@ -38,6 +39,7 @@ export default function Client() {
               <p>Desenvolvo API's Rest para integrar com sites ou sistemas.</p>
             </div>
           </a>
+          
         </div>
       </section>
       <Projects />

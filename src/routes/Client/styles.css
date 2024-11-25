@@ -30,12 +30,15 @@
 
 .option-my-work-item {
   border: 2px solid var(--esg-color-tertiary);
-  width: 300px;
+  width: 100%;
+  height: 100%;
   padding: 20px;
   border-radius: 10px;
-  cursor: pointer;
 }
 
+.options-my-work a {
+  width: 90%;
+}
 .option-my-work-item h3 {
   color: var(--esg-color-tertiary);
   text-align: center;
@@ -106,6 +109,7 @@
   justify-content: space-between;
   max-width: 1120px;
   margin: 0 auto;
+  gap: 20px;
 }
 
 .benefit-item img {
@@ -118,9 +122,22 @@
   }
   .option-my-work-item {
     border: 2px solid var(--esg-color-tertiary);
-    width: 80%;
+    width: 100%;
     padding: 20px;
     border-radius: 10px;
+  }
+
+  .benefit-item {
+    width: 200px;
+    padding: 10px 15px;
+  }
+
+  .benefit-item h3 {
+    font-size: 24px;
+  }
+
+  .benefit-item p {
+    font-size: 17px;
   }
 }
 
@@ -138,7 +155,15 @@
     font-size: 18px;
   }
   .option-my-work-item {
-    width: 300px;
     padding: 10px;
+  }
+
+  .benefits-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefit-item {
+    width: 80%;
+    padding: 10px 15px;
   }
 }
