@@ -20,7 +20,7 @@
 
 .about-me-descriptions-content {
   padding: 10px 15px;
-  border: 2px solid #d9d9d9;
+  border: 2px solid var(--esg-color-tertiary);
   overflow-x: hidden;
   border-radius: 10px;
 }
@@ -31,7 +31,7 @@
 }
 
 .about-me-descriptions-content p {
-  color: #d9d9d9;
+  color: var(--esg-color-tertiary);
   margin-bottom: 5px;
 }
 
@@ -39,7 +39,7 @@
   height: 350px;
   width: 350px;
   border-radius: 50%;
-  border: 2px solid #d9d9d9;
+  border: 2px solid var(--esg-color-tertiary);
 }
 
 .about-me-descriptions-skills {

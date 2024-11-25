@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap");
 
+:root {
+  --esg-color-primary: #030303;
+  --esg-color-secondary: #629485;
+  --esg-color-tertiary: #fff;
+}
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +14,12 @@
 
 html,
 body {
-  background: radial-gradient(#1d1c1c, #1f1e1e);
+  background: linear-gradient(
+    360deg,
+    var(--esg-color-primary) 10%,
+    var(--esg-color-secondary) 100%
+  );
+  min-height: 100vh;
 }
 
 a,

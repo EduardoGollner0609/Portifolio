@@ -2,14 +2,17 @@ import "./styles.css";
 import whatsIcon from "../../assets/whatsapp-icon.svg";
 import linkedinIcon from "../../assets/linkedin-icon.svg";
 import githubIcon from "../../assets/github-icon.svg";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header>
       <nav>
         <div className="header-title">
-          <h1>Eduardo Sousa Gollner</h1>
-          <h2>Desenvolvedor Fullstack</h2>
+          <Link to="/">
+            <h1>Eduardo Sousa Gollner</h1>
+            <h2>Desenvolvedor Fullstack</h2>
+          </Link>
         </div>
         <div className="header-sociais-network">
           <a href="https://wa.me/5527992657127">
