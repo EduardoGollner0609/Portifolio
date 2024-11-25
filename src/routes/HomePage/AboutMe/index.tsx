@@ -37,29 +37,33 @@ export default function AboutMe() {
               buscando melhorar, estudando e praticando.
             </p>
             <h2>Formações e cursos📚</h2>
-            <a href="https://www.udemy.com/certificate/UC-1b17a043-9227-4675-9a9b-65912021c184/">
-              <p>
+
+            <p>
+              <a href="https://www.udemy.com/certificate/UC-1b17a043-9227-4675-9a9b-65912021c184/">
                 - Certificado em Java Completo (UDEMY - DevSuperior). Clique
                 aqui
-              </p>
-            </a>
-            <a href="https://devsuperior.club/c/5-3053">
-              <p>
+              </a>
+            </p>
+
+            <p>
+              <a href="https://devsuperior.club/c/5-3053">
                 - Certificado em Java Spring Professional(DevSuperior). Clique
                 Aqui
-              </p>
-            </a>
+              </a>
+            </p>
 
-            <a href="https://devsuperior.club/c/5-3053">
-              <p>
+            <p>
+              <a href="https://devsuperior.club/c/5-3053">
                 - Certificado em Java Spring Expert(DevSuperior). Clique Aqui
-              </p>
-            </a>
-            <a href="https://devsuperior.club/c/5-3053">
-              <p>
+              </a>
+            </p>
+
+            <p>
+              <a href="https://devsuperior.club/c/5-3053">
                 - Certificado em ReactJs Professional (DevSuperior). Clique Aqui
-              </p>
-            </a>
+              </a>
+            </p>
+
           </div>
         </div>
       </section>

@@ -10,21 +10,21 @@ export default function Client() {
 
         <div className="options-my-work">
           <div className="option-my-work-item">
-            <h3>Criação de sites</h3>
+            <h3>Sites</h3>
             <p>
               Desenvolvo sites completos, sempre pensando nos minimos detalhes
               visando a satisfação do cliente.
             </p>
           </div>
           <div className="option-my-work-item">
-            <h3>Criação de Landing Pages</h3>
+            <h3>Landing Pages</h3>
             <p>
               Desenvolvo Landing Pages capazes de trasnformar um navegador anônimo
               em um cliente fiel.
             </p>
           </div>
           <div className="option-my-work-item">
-            <h3>Criação de API's rest</h3>
+            <h3>API's rest</h3>
             <p>Desenvolvo API's Rest para integrar com sites ou sistemas.</p>
           </div>
         </div>

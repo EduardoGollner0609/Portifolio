@@ -18,7 +18,7 @@ export default function Recruiter() {
           </div>
 
           <div className="my-skills-soft-skills">
-            <h3>Softwt Skills</h3>
+            <h3>Soft Skills</h3>
             <p>- Capacidade de Trabalhar em equipe</p>
             <p>- Resiliência</p>
             <p>- Empatia</p>
