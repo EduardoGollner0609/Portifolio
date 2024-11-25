@@ -1,3 +1,11 @@
+#section-recruiter {
+  padding: 0 20px;
+}
+
+#section-recruiter h2 {
+  text-align: center;
+}
+
 .my-skills {
   width: 100%;
   display: flex;
