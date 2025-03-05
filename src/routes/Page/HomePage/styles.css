@@ -1,0 +1,39 @@
+#home-page-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-page-apresentation {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-height: 500px;
+}
+
+.home-page-apresentation p {
+  color: rgb(255, 255, 255);
+  max-width: 500px;
+}
+
+.home-page-apresentation h2 {
+  color: rgb(209, 235, 226);
+  font-size: 55px;
+}
+
+.home-page-apresentation a {
+  padding: 8px 10px;
+  border: 2px solid aliceblue;
+  color: aliceblue;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.home-page-photo img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
