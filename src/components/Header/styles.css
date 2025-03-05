@@ -1,0 +1,31 @@
+header {
+  padding: 10px 20px;
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-options-contact .list-options-contact {
+  display: flex;
+  gap: 10px;
+}
+
+.header-options-contact .list-options-contact .option-contact-item a img {
+  width: 42px;
+  height: 42px;
+}
+
+header nav h2 {
+  font-size: 22px;
+}
+
+@media (max-width: 576px) {
+  header nav {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
