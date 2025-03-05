@@ -2,14 +2,17 @@ import './styles.css'
 import whatsappIcon from '../../assets/whatsapp-icon.svg';
 import linkedinIcon from '../../assets/linkedin-icon.svg';
 import githubIcon from '../../assets/github-icon.svg';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
     return (
         <header>
             <nav className="container">
                 <div className="header-title">
-                    <h1>Eduardo Sousa Gollner</h1>
-                    <h2>Desenvolvedor Fullstack</h2>
+                    <Link to="/">
+                        <h1>Eduardo Sousa Gollner</h1>
+                        <h2>Desenvolvedor Fullstack</h2>
+                    </Link>
                 </div>
                 <div className="header-options-contact">
                     <ul className="list-options-contact">
@@ -28,8 +31,6 @@ export default function Header() {
                                 <img src={githubIcon} alt="" />
                             </a>
                         </li>
-
-
                     </ul>
                 </div>
             </nav>

@@ -13,10 +13,30 @@
   margin: 0 auto;
 }
 
-ul {
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+li {
   list-style: none;
 }
 
-html, body {
-  background-color: rgb(77, 71, 71);
+body {
+  --dot-bg: black;
+  --dot-color: white;
+  --dot-size: 1px;
+  --dot-space: 22px;
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
 }
