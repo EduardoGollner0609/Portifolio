@@ -1,11 +1,10 @@
 import './App.css'
-import Header from './components/Header'
+import Page from './routes/Page'
 
 function App() {
 
   return (
-    <Header />
-
+    <Page />
   )
 }
 

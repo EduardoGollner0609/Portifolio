@@ -1,0 +1,30 @@
+#apresentation-section {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-height: 600px;
+  gap: 15px;
+}
+
+.apresentation-details {
+  color: #fff;
+}
+
+.apresentation-details h2 {
+  font-size: 35px;
+}
+
+.apresentation-details p {
+  font-size: 14px;
+  max-width: 500px;
+}
+
+.apresentation-img {
+  border: 2px dashed #fff;
+  padding: 10px;
+}
+
+.apresentation-img img {
+  width: 300px;
+}

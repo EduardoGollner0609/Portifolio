@@ -7,6 +7,10 @@
   font-family: "Parkinsans", sans-serif;
 }
 
+main {
+  padding: 0 20px;
+}
+
 body {
   --dot-bg: black;
   --dot-color: white;
@@ -39,4 +43,8 @@ a {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
+}
+
+.mb10 {
+  margin-bottom: 10px;
 }

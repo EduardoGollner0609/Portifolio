@@ -1,0 +1,28 @@
+import './styles.css';
+import Header from '../../components/Header';
+import myImg from '../../assets/my-img.webp';
+
+export default function Page() {
+    return (
+        <>
+            <Header />
+            <main>
+                <section id="apresentation-section" className="container">
+                    <div className="apresentation-details">
+                        <p>Olá, tudo bem? eu me chamo </p>
+                        <h2>Eduardo Sousa Gollner</h2>
+                   
+                        <p>
+                            Sou um desenvolvedor Full Stack com experiência em Java, Spring, React e SQL.
+                            Apaixonado por tecnologia, sigo boas práticas como SOLID para criar aplicações escaláveis e de alta qualidade.
+                            Tenho aprendizado rápido, trabalho bem em equipe e busco sempre soluções eficientes e inovadoras. 🚀
+                        </p>
+                    </div>
+                    <div className="apresentation-img">
+                        <img src={myImg} alt="" />
+                    </div>
+                </section>
+            </main>
+        </>
+    );
+}
