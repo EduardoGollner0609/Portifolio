@@ -6,7 +6,7 @@
 .project-card-img {
   position: relative;
   left: 0;
-  transition: left 0.3s ease-in-out;
+  transition: left 0.4s ease-in-out;
 }
 
 .project-card-img img {
@@ -17,23 +17,30 @@
 
 .project-card-details {
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
-  flex: 1;
 }
 
-.project-card-details h3 {
+.project-card-details h3,
+.project-card-details-links,
+.project-card-details-skills {
   position: absolute;
   transition: right 0.3s ease-in-out;
   right: 0;
+}
+
+.project-card-details-skills {
+  display: flex;
+  gap: 10px;
+  top: 180px;
+  justify-content: start;
+}
+
+.project-card-details-skills p {
+  padding: 4px 8px;
+  border: 2px dashed #fff;
+  border-radius: 20px;
 }
 
 .project-card-details-links {
-  position: absolute;
-  transition: right 0.3s ease-in-out;
-  right: 0;
   bottom: 10px;
   display: flex;
   gap: 10px;
@@ -44,31 +51,45 @@
   height: 28px;
 }
 
+.project-card-img::after {
+  content: "";
+  transition: 0.4s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(42, 41, 41, 0.5);
+  opacity: 1;
+}
+
 .project-card-details-description {
   position: absolute;
-  top: 50%; /* Move para o meio da imagem */
-  right: 0px; /* Começa fora da imagem, à direita */
-  transform: translateY(-50%); /* Ajusta para alinhar ao centro */
+  top: 75px;
+  right: 0px;
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 8px 15px;
   font-size: 14px;
   border-radius: 8px;
   transition: right 0.3s ease-in-out;
-  white-space: normal; /* Permite quebra de linha */
-  max-width: 450px; /* Limita a largura da descrição */
-  word-wrap: break-word; /* Quebra palavras grandes */
+  white-space: normal;
+  max-width: 450px;
+  word-wrap: break-word;
 }
 
 .project-card:hover .project-card-details-description {
   right: 10px;
 }
 
-.project-card:hover .project-card-details h3 {
-  right: 10px;
+.project-card:hover .project-card-img::after {
+  opacity: 0;
 }
 
-.project-card:hover .project-card-details-links {
+.project-card:hover .project-card-details h3,
+.project-card:hover .project-card-details-links,
+.project-card:hover .project-card-details-skills {
   right: 10px;
 }
 

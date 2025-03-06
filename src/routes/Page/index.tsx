@@ -7,6 +7,9 @@ import gcbarbershopProjectImg from '../../assets/gcbarbershop-project-img.png';
 import rossowEngenhariaProjectImg from '../../assets/rossowengenharia-project-img.png';
 
 export default function Page() {
+
+    const landingPageSkills = ['HTML', 'CSS', 'React'];
+
     return (
         <>
             <Header />
@@ -37,14 +40,14 @@ export default function Page() {
                             imgUrl={gcbarbershopProjectImg}
                             title='Gc Barber Shop'
                             description='Landing page desenvolvida para uma barbearia chamada GCBarberShop'
-                            skills={[]}
+                            skills={landingPageSkills}
                             githubUrl='https://github.com/EduardoGollner0609/GCBarberShop'
                             projectUrl='https://gcbarbershop.netlify.app/' />
                         <ProjectCard
                             imgUrl={rossowEngenhariaProjectImg}
                             title='Rossow Engenharia'
                             description='Landing page desenvolvida para uma empresa de engenharia chamada Rossow Engenharia'
-                            skills={[]}
+                            skills={landingPageSkills}
                             githubUrl='https://github.com/EduardoGollner0609/RossowEngenharia'
                             projectUrl='https://rossow-engenharia.netlify.app/' />
                     </div>
