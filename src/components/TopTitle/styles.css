@@ -1,0 +1,16 @@
+.top-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.top-title h3 {
+  text-align: center;
+}
+
+.top-title .row-left,
+.top-title .row-right {
+  border: 2px solid #fff;
+  height: 0px;
+  width: 100%;
+}

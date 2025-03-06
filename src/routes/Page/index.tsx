@@ -1,6 +1,7 @@
 import './styles.css';
 import Header from '../../components/Header';
 import myImg from '../../assets/my-img.webp';
+import TopTitle from '../../components/TopTitle';
 
 export default function Page() {
     return (
@@ -26,6 +27,9 @@ export default function Page() {
                     <div className="apresentation-img">
                         <img src={myImg} alt="" />
                     </div>
+                </section>
+                <section id="projects-section" className="container">
+                    <TopTitle title='Projetos' />
                 </section>
             </main>
         </>
