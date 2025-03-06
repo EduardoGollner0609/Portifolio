@@ -1,5 +1,5 @@
 #apresentation-section {
-  height: 70vh;
+  height: 72vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,7 +12,7 @@
 }
 
 .apresentation-details h2 {
-  font-size: 35px;
+  font-size: 42px;
 }
 
 .apresentation-details p {
@@ -27,4 +27,13 @@
 
 .apresentation-img img {
   width: 300px;
+}
+
+.apresentation-btn-space {
+  margin-top: 30px;
+}
+
+.apresentation-btn {
+  padding: 5px 10px;
+  border: 2px dashed #fff;
 }
