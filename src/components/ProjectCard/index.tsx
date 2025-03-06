@@ -17,6 +17,7 @@ export default function ProjectCard({ imgUrl, title, description, skills, github
             <a href={projectUrl}>
                 <div className="project-card-img">
                     <img src={imgUrl} alt={`Foto do projeto ${title}`} />
+                    <p>Clique para Visitar</p>
                 </div>
             </a>
             <div className="project-card-details">
