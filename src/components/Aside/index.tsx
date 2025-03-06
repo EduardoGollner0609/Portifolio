@@ -1,5 +1,6 @@
 import './styles.css';
 import homeIcon from '../../assets/home-icon.svg';
+import { NavLink } from 'react-router-dom';
 
 export default function Aside() {
     return (
@@ -13,24 +14,26 @@ export default function Aside() {
 
             <ul className="list-options-navegation">
                 <li className="option-navegation-item">
-                    <a href="">
+                    <NavLink to="/" className={({ isActive }) =>
+                        isActive ? "option-navegation-item-active" : ""}>
                         <span className="icon">
                             <img src={homeIcon} alt="" />
                         </span>
                         <span className="text">
                             Inicio
                         </span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="option-navegation-item">
-                    <a href="">
+                    <NavLink to="/projects" className={({ isActive }) =>
+                        isActive ? "option-navegation-item-active" : ""}>
                         <span className="icon">
                             <img src={homeIcon} alt="" />
                         </span>
                         <span className="text">
                             Projetos
                         </span>
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="option-navegation-item">
                     <a href="">
@@ -43,6 +46,6 @@ export default function Aside() {
                     </a>
                 </li>
             </ul>
-        </aside>
+        </aside >
     );
 }

@@ -88,3 +88,7 @@ aside ul li a .text {
   letter-spacing: 0.05rem;
   margin-left: 10px;
 }
+
+.option-navegation-item-active {
+  background-color: #ebe9e9;
+}
