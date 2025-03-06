@@ -3,6 +3,8 @@ import Header from '../../components/Header';
 import myImg from '../../assets/my-img.webp';
 import TopTitle from '../../components/TopTitle';
 import ProjectCard from '../../components/ProjectCard';
+import gcbarbershopProjectImg from '../../assets/gcbarbershop-project-img.png';
+import rossowEngenhariaProjectImg from '../../assets/rossowengenharia-project-img.png';
 
 export default function Page() {
     return (
@@ -32,10 +34,19 @@ export default function Page() {
                     <TopTitle title='Projetos' />
                     <div className="projects-list">
                         <ProjectCard
-                            imgUrl={''}
-                            title={''}
-                            description={''}
-                            skills={[]} />
+                            imgUrl={gcbarbershopProjectImg}
+                            title='Gc Barber Shop'
+                            description='Landing page desenvolvida para uma barbearia chamada GCBarberShop'
+                            skills={[]}
+                            githubUrl='https://github.com/EduardoGollner0609/GCBarberShop'
+                            projectUrl='https://gcbarbershop.netlify.app/' />
+                        <ProjectCard
+                            imgUrl={rossowEngenhariaProjectImg}
+                            title='Rossow Engenharia'
+                            description='Landing page desenvolvida para uma empresa de engenharia chamada Rossow Engenharia'
+                            skills={[]}
+                            githubUrl='https://github.com/EduardoGollner0609/RossowEngenharia'
+                            projectUrl='https://rossow-engenharia.netlify.app/' />
                     </div>
                 </section>
             </main>

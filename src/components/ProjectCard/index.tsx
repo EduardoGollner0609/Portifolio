@@ -14,6 +14,7 @@ type Props = {
 export default function ProjectCard({ imgUrl, title, description, skills, githubUrl, projectUrl }: Props) {
     return (
         <div className="project-card">
+
             <div className="project-card-img">
                 <a href={githubUrl}>
                     <img src={imgUrl} alt={`Foto do projeto ${title}`} />
