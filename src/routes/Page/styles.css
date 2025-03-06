@@ -27,6 +27,11 @@
 
 .apresentation-img img {
   width: 300px;
+  transition: 0.4s;
+}
+
+.apresentation-img img:hover {
+  width: 320px;
 }
 
 .apresentation-btn-space {
@@ -36,4 +41,10 @@
 .apresentation-btn {
   padding: 5px 10px;
   border: 2px dashed #fff;
+  transition: 0.4s;
+}
+
+.apresentation-btn:hover {
+  padding: 7px 12px;
+  font-size: 18px;
 }

@@ -21,6 +21,12 @@ header nav {
 .option-contact-item a img {
   height: 40px;
   width: 40px;
+  transition: 0.3s;
+}
+
+.option-contact-item a:hover img {
+  height: 45px;
+  width: 45px;
 }
 
 @media (max-width: 576px) {
