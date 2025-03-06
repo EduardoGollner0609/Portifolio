@@ -56,11 +56,57 @@
   gap: 15px;
 }
 
-.about-me-details {
+.about-me-content {
   color: #fff;
 }
 
 .about-me-details-my-skills {
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
+.about-me-content {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.about-me-animation-img img {
+  width: 420px;
+  transition: 0.4s;
+}
+
+.about-me-animation-img:hover img {
+  width: 450px;
+}
+
+.about-me-details-my-skills .my-skills-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 325px;
+  flex-wrap: wrap;
+}
+
+.about-me-details-my-skills .my-skills-list li {
+  border-bottom: 2px dashed #fff;
+  padding-bottom: 3px;
+  transition: 0.4s;
+}
+
+.about-me-animation-img:hover .my-skills-list li {
+  font-size: 18px;
+}
+
+.about-me-details p {
+  margin-bottom: 15px;
+  max-width: 480px;
+}
+
+.about-me-details p li {
+  font-weight: bold;
+  margin-top: 2px;
+}
