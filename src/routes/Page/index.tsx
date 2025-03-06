@@ -33,6 +33,45 @@ export default function Page() {
                         <img src={myImg} alt="" />
                     </div>
                 </section>
+                <section id="about-me-section" className="container">
+                    <TopTitle title='Sobre Mim' />
+                    <div className="about-me-details">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Possimus sapiente,
+                            accusamus debitis recusandae rem autem iure est tempore magni inventore consequuntur
+                            cumque nesciunt maxime ea nisi voluptatem quisquam.
+                            Fuga, eligendi.
+                        </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Possimus sapiente,
+                            accusamus debitis recusandae rem autem iure est tempore magni inventore consequuntur
+                            cumque nesciunt maxime ea nisi voluptatem quisquam.
+                            Fuga, eligendi.
+                        </p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Possimus sapiente,
+                            accusamus debitis recusandae rem autem iure est tempore magni inventore consequuntur
+                            cumque nesciunt maxime ea nisi voluptatem quisquam.
+                            Fuga, eligendi.
+                        </p>
+                        <div className="about-me-details-my-skills">
+                            <ul className='my-skills-list'>
+                                <li>
+                                    Java
+                                </li>
+                                <li>
+                                    Spring
+                                </li>
+                                <li>
+                                    React
+                                </li>
+                                <li>
+                                    SQL
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
                 <section id="projects-section" className="container">
                     <TopTitle title='Projetos' />
                     <div className="projects-list">

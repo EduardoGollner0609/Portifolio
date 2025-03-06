@@ -6,6 +6,8 @@
 
 .top-title h3 {
   text-align: center;
+  color: #fff;
+  white-space: nowrap;
 }
 
 .top-title .row-left,

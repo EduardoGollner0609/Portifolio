@@ -1,5 +1,5 @@
 #apresentation-section {
-  height: 72vh;
+  height: 65vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,12 +49,18 @@
   font-size: 18px;
 }
 
-#projects-section {
-  color: #fff;
-}
-
 .projects-list {
+  margin: 10px 0;
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+
+.about-me-details {
+  color: #fff;
+}
+
+.about-me-details-my-skills {
+  margin-top: 10px;
+}
+
