@@ -35,16 +35,6 @@ export default function Aside() {
                         </span>
                     </NavLink>
                 </li>
-                <li className="option-navegation-item">
-                    <a href="">
-                        <span className="icon">
-                            <img src={homeIcon} alt="" />
-                        </span>
-                        <span className="text">
-                            Contato
-                        </span>
-                    </a>
-                </li>
             </ul>
         </aside >
     );
