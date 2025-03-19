@@ -1,7 +1,6 @@
 import './styles.css';
 import Header from '../../components/Header';
 import myImg from '../../assets/my-img.webp';
-import computerAnimationImg from '../../assets/computer-animation-img.svg';
 import TopTitle from '../../components/TopTitle';
 import ProjectCard from '../../components/ProjectCard';
 import gcbarbershopProjectImg from '../../assets/gcbarbershop-project-img.png';
@@ -9,6 +8,7 @@ import rossowEngenhariaProjectImg from '../../assets/rossowengenharia-project-im
 import foodbridgeProjectImg from '../../assets/foodbridge-project-img.png';
 import autoaluguelProjectImg from '../../assets/autoaluguel-project-img.png';
 import stockmanagerProjectImg from '../../assets/stockmanager-project-img.png';
+import my2Img from '../../assets/my-2-img.jpg';
 
 export default function Page() {
 
@@ -64,44 +64,21 @@ export default function Page() {
                 <section id="about-me-section" className="container">
                     <TopTitle title='Sobre Mim' />
                     <div className="about-me-content">
-                        <div className="about-me-animation-img">
-                            <img src={computerAnimationImg} alt="Animação Computador" />
-                            <div className="about-me-details-my-skills">
-                                <ul className='my-skills-list'>
-                                    <li>
-                                        Java
-                                    </li>
-                                    <li>
-                                        Spring
-                                    </li>
-                                    <li>
-                                        HTML
-                                    </li>
-                                    <li>
-                                        CSS
-                                    </li>
-                                    <li>
-                                        Typescript
-                                    </li>
-                                    <li>
-                                        React
-                                    </li>
-                                    <li>
-                                        SQL
-                                    </li>
-                                </ul>
-                            </div>
+                        <div className="about-me-img">
+                            <img src={my2Img} alt="Animação Computador" />
                         </div>
                         <div className="about-me-details">
                             <p>
-                                Olá, eu me chamo <strong>Eduardo Sousa Gollner</strong>,
+                                Prazer, me chamo <strong>Eduardo Sousa Gollner</strong>,
                                 tenho {myAge} anos (nascido em 06/09/2005) e é um prazer tê-lo aqui. Se quiser saber mais sobre mim,
                                 leia com atenção.
                             </p>
+                            <br />
                             <p>
                                 Sempre fui muito <strong>curioso</strong> e <strong>dedicado</strong>,
                                 gostava de saber sobre tudo e principalmente assuntos que me interessavam.
                             </p>
+                            <br />
                             <p>
                                 Meu interesse por programação começou através do meu irmão,
                                 que já atuava na área e me incentivou a seguir esse caminho.
@@ -111,7 +88,7 @@ export default function Page() {
                                 cursos e passei muitas noites estudando.
                                 Hoje, sou um Desenvolvedor de Software Fullstack,
                                 com maior foco no BackEnd, possuo certificados:
-                                <ul>
+                                <ul className="about-me-details-certificates">
                                     <li>
                                         <a href="https://www.udemy.com/certificate/UC-1b17a043-9227-4675-9a9b-65912021c184/">
                                             Java Completo (UDEMY - 54.5 Horas)
@@ -133,8 +110,6 @@ export default function Page() {
                                         </a>
                                     </li>
                                 </ul>
-
-
                             </p>
                         </div>
                     </div>
