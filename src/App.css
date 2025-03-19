@@ -11,7 +11,12 @@ main {
   padding: 0 20px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  color: #0c0c0c;
   --dot-bg: black;
   --dot-color: white;
   --dot-size: 1px;
@@ -41,6 +46,6 @@ a {
 
 .container {
   width: 100%;
-  max-width: 960px;
+  max-width: 1120px;
   margin: 0 auto;
 }

@@ -5,6 +5,7 @@ import linkedinIcon from '../../assets/linkedin-icon.svg';
 import githubIcon from '../../assets/github-icon.svg';
 
 export default function Header() {
+
     return (
         <header>
             <nav className='container'>

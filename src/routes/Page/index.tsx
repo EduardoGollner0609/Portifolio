@@ -6,11 +6,15 @@ import TopTitle from '../../components/TopTitle';
 import ProjectCard from '../../components/ProjectCard';
 import gcbarbershopProjectImg from '../../assets/gcbarbershop-project-img.png';
 import rossowEngenhariaProjectImg from '../../assets/rossowengenharia-project-img.png';
+import foodbridgeProjectImg from '../../assets/foodbridge-project-img.png';
+import autoaluguelProjectImg from '../../assets/autoaluguel-project-img.png';
+import stockmanagerProjectImg from '../../assets/stockmanager-project-img.png';
 
 export default function Page() {
 
     const landingPageSkills = ['HTML', 'CSS', 'React'];
 
+    const siteSkills = ['React', 'Java', 'Spring', 'PostgreSQL'];
 
     const calculateAge = (birthDate: Date) => {
         const today = new Date();
@@ -48,7 +52,7 @@ export default function Page() {
                             Tenho aprendizado rápido, trabalho bem em equipe e busco sempre soluções eficientes e inovadoras. 🚀
                         </p>
                         <div className="apresentation-btn-space">
-                            <a href="" className="apresentation-btn mt20">
+                            <a href="#about-me-section" className="apresentation-btn mt20">
                                 Conheça mais
                             </a>
                         </div>
@@ -138,6 +142,27 @@ export default function Page() {
                 <section id="projects-section" className="container">
                     <TopTitle title='Projetos' />
                     <div className="projects-list">
+                        <ProjectCard
+                            imgUrl={foodbridgeProjectImg}
+                            title='FoodBridge'
+                            description='Site para doação de alimentos.'
+                            skills={siteSkills}
+                            githubUrl='https://github.com/EduardoGollner0609/FoodBridge'
+                            projectUrl='https://foodbridge-oficial.vercel.app/' />
+                        <ProjectCard
+                            imgUrl={autoaluguelProjectImg}
+                            title='AutoAluguel'
+                            description='Site para aluguel de automóveis.'
+                            skills={siteSkills}
+                            githubUrl='https://github.com/EduardoGollner0609/AutoAluguel'
+                            projectUrl='https://autoaluguel.vercel.app/' />
+                        <ProjectCard
+                            imgUrl={stockmanagerProjectImg}
+                            title='Stock Manager'
+                            description='Aplicação Desktop para controle de estoque.'
+                            skills={['Java', 'JDBC', 'MySQL', 'JavaFX']}
+                            githubUrl='https://github.com/EduardoGollner0609/StockManager'
+                            projectUrl='https://github.com/EduardoGollner0609/StockManager' />
                         <ProjectCard
                             imgUrl={gcbarbershopProjectImg}
                             title='Gc Barber Shop'
