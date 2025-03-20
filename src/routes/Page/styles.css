@@ -125,6 +125,11 @@
   .about-me-img img:hover {
     width: 400px;
   }
+
+  .apresentation-btn:hover {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -136,6 +141,14 @@
   .about-me-img img,
   .about-me-img img:hover {
     width: 320px;
+  }
+
+  .apresentation-details h2 {
+    font-size: 38px;
+  }
+  .about-me-details p {
+    font-size: 16px;
+    max-width: 550px;
   }
 }
 
