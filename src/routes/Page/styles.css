@@ -115,6 +115,12 @@
   }
 }
 
+@media (max-width: 976px) {
+  .projects-list {
+    align-items: center;
+  }
+}
+
 @media (max-width: 768px) {
   .apresentation-img img,
   .apresentation-img img:hover {
