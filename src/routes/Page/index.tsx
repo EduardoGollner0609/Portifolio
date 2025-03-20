@@ -76,7 +76,8 @@ export default function Page() {
                             <br />
                             <p>
                                 Sempre fui muito <strong>curioso</strong> e <strong>dedicado</strong>,
-                                gostava de saber sobre tudo e principalmente assuntos que me interessavam.
+                                gostava de aprender de tudo um pouco, mas principalmente assuntos que me interessavam.
+                                Com programação não foi diferente.
                             </p>
                             <br />
                             <p>
@@ -84,10 +85,10 @@ export default function Page() {
                                 que já atuava na área e me incentivou a seguir esse caminho.
                                 Ao descobrir o poder de criar,
                                 inovar e resolver problemas com a programação,
-                                me apaixonei pela área. Comecei a investir em livros,
-                                cursos e passei muitas noites estudando.
-                                Hoje, sou um Desenvolvedor de Software Fullstack,
-                                com maior foco no BackEnd, possuo certificados:
+                                me apaixonei pela área. Desde então venho estudando por meio de cursos e livros,
+                                aprimorando cada vez mais minhas habilidades.
+                                E hoje sou um desenvolvedor de Software Fullstack com maior foco no BackEnd com Java e Spring,
+                                gosto muito de trabalhar em equipe, sou comunicativo, e possuo certificados, tais como:
                                 <ul className="about-me-details-certificates">
                                     <li>
                                         <a href="https://www.udemy.com/certificate/UC-1b17a043-9227-4675-9a9b-65912021c184/">
