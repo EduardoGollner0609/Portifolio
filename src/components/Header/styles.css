@@ -20,19 +20,63 @@ header nav {
 }
 
 .option-contact-item a img {
-  height: 40px;
-  width: 40px;
+  height: 44px;
+  width: 44px;
   transition: 0.3s;
 }
 
 .option-contact-item a:hover img {
-  height: 45px;
-  width: 45px;
+  height: 48px;
+  width: 48px;
+}
+
+.header-title h1 {
+  font-size: 26px;
+}
+
+.header-title h2 {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .header-title h1 {
+    font-size: 24px;
+  }
+
+  .header-title h2 {
+    font-size: 22px;
+  }
+
+  .option-contact-item a img {
+    height: 42px;
+    width: 42px;
+  }
+
+  .option-contact-item a:hover img {
+    height: 46px;
+    width: 46px;
+  }
 }
 
 @media (max-width: 576px) {
   header nav {
     flex-direction: column;
     gap: 15px;
+  }
+
+  .option-contact-item a img,
+  .option-contact-item a:hover img {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-title h1 {
+    font-size: 22px;
+  }
+
+  .header-title h2 {
+    font-size: 20px;
   }
 }

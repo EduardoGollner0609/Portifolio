@@ -115,4 +115,38 @@
   }
 }
 
+@media (max-width: 768px) {
+  .apresentation-img img,
+  .apresentation-img img:hover {
+    width: 300px;
+  }
 
+  .about-me-img img,
+  .about-me-img img:hover {
+    width: 400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .apresentation-img img,
+  .apresentation-img img:hover {
+    width: 280px;
+  }
+
+  .about-me-img img,
+  .about-me-img img:hover {
+    width: 320px;
+  }
+}
+
+@media (max-width: 380px) {
+  .apresentation-img img,
+  .apresentation-img img:hover {
+    width: 240px;
+  }
+
+  .about-me-img img,
+  .about-me-img img:hover {
+    width: 260px;
+  }
+}
