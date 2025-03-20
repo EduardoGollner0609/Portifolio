@@ -84,10 +84,10 @@
 
 .project-card-details-description {
   position: absolute;
-  top: 75px;
+  top: 40px;
   right: 0px;
-  background: rgba(0, 0, 0, 0.7);
-  padding: 8px 15px;
+  background: rgb(89, 88, 88);
+  padding: 6px 13px;
   font-size: 14px;
   border-radius: 8px;
   transition: right 0.3s ease-in-out;

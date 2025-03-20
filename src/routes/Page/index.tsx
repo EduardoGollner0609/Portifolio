@@ -121,35 +121,44 @@ export default function Page() {
                         <ProjectCard
                             imgUrl={foodbridgeProjectImg}
                             title='FoodBridge'
-                            description='Site para doação de alimentos.'
+                            description='O FoodBridge é um projeto acadêmico que visa acabar ou diminuir a fome no mundo. 
+                            Por meio desse site, algumas pessoas poderão registrar doações de alimentos, 
+                            enquanto outras poderão coletar as doações próximas para distribuí-las a quem necessita.'
                             skills={siteSkills}
                             githubUrl='https://github.com/EduardoGollner0609/FoodBridge'
                             projectUrl='https://foodbridge-oficial.vercel.app/' />
                         <ProjectCard
                             imgUrl={autoaluguelProjectImg}
                             title='AutoAluguel'
-                            description='Site para aluguel de automóveis.'
+                            description='O AutoAluguel é um projeto acadêmico voltado para o aluguel de carros, que conta com um sistema (API) que permite cadastrar veículos disponíveis para locação, 
+                            gerenciar o processo de aluguel para os clientes e calcular o valor total da locação.'
                             skills={siteSkills}
                             githubUrl='https://github.com/EduardoGollner0609/AutoAluguel'
                             projectUrl='https://autoaluguel.vercel.app/' />
                         <ProjectCard
                             imgUrl={stockmanagerProjectImg}
                             title='Stock Manager'
-                            description='Aplicação Desktop para controle de estoque.'
+                            description='O StockManager é uma aplicação desktop desenvolvida para otimizar o controle de estoque e o gerenciamento de vendas. 
+                            O programa permite o acompanhamento detalhado de produtos, 
+                            registros de movimentações e gestão completa das vendas.'
                             skills={['Java', 'JDBC', 'MySQL', 'JavaFX']}
                             githubUrl='https://github.com/EduardoGollner0609/StockManager'
                             projectUrl='https://github.com/EduardoGollner0609/StockManager' />
                         <ProjectCard
                             imgUrl={gcbarbershopProjectImg}
-                            title='Gc Barber Shop'
-                            description='Landing page desenvolvida para uma barbearia chamada GCBarberShop'
+                            title='Gc BarberShop'
+                            description='Landing page desenvolvida para promover os serviços da GC BarberShop, apresentando a identidade da barbearia, 
+                            seus diferenciais e facilidades para agendamento, 
+                            proporcionando uma experiência envolvente e profissional para os clientes. '
                             skills={landingPageSkills}
                             githubUrl='https://github.com/EduardoGollner0609/GCBarberShop'
                             projectUrl='https://gcbarbershop.netlify.app/' />
                         <ProjectCard
                             imgUrl={rossowEngenhariaProjectImg}
                             title='Rossow Engenharia'
-                            description='Landing page desenvolvida para uma empresa de engenharia chamada Rossow Engenharia'
+                            description='Landing page criada para apresentar os serviços da Rossow Engenharia, destacando sua expertise, 
+                            projetos e soluções inovadoras, 
+                            proporcionando uma experiência informativa e profissional para os clientes.'
                             skills={landingPageSkills}
                             githubUrl='https://github.com/EduardoGollner0609/RossowEngenharia'
                             projectUrl='https://rossow-engenharia.netlify.app/' />
