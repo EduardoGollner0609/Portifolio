@@ -14,7 +14,7 @@ export default function Page() {
 
     const landingPageSkills = ['HTML', 'CSS', 'React'];
 
-    const siteSkills = ['React', 'Java', 'Spring', 'PostgreSQL'];
+    const siteSkills = ['React', 'Spring', 'PostgreSQL'];
 
     const calculateAge = (birthDate: Date) => {
         const today = new Date();
@@ -124,7 +124,7 @@ export default function Page() {
                             description='O FoodBridge é um projeto acadêmico que visa acabar ou diminuir a fome no mundo. 
                             Por meio desse site, algumas pessoas poderão registrar doações de alimentos, 
                             enquanto outras poderão coletar as doações próximas para distribuí-las a quem necessita.'
-                            skills={siteSkills}
+                            skills={siteSkills.concat(['Oauth2', 'JWT'])}
                             githubUrl='https://github.com/EduardoGollner0609/FoodBridge'
                             projectUrl='https://foodbridge-oficial.vercel.app/' />
                         <ProjectCard
@@ -145,6 +145,15 @@ export default function Page() {
                             githubUrl='https://github.com/EduardoGollner0609/StockManager'
                             projectUrl='https://github.com/EduardoGollner0609/StockManager' />
                         <ProjectCard
+                            imgUrl={rossowEngenhariaProjectImg}
+                            title='Rossow Engenharia'
+                            description='Landing page criada para apresentar os serviços da Rossow Engenharia, destacando sua expertise, 
+                            projetos e soluções inovadoras, 
+                            proporcionando uma experiência informativa e profissional para os clientes.'
+                            skills={landingPageSkills.concat('EmailJS')}
+                            githubUrl='https://github.com/EduardoGollner0609/RossowEngenharia'
+                            projectUrl='https://rossow-engenharia.netlify.app/' />
+                        <ProjectCard
                             imgUrl={gcbarbershopProjectImg}
                             title='Gc BarberShop'
                             description='Landing page desenvolvida para promover os serviços da GC BarberShop, apresentando a identidade da barbearia, 
@@ -153,15 +162,6 @@ export default function Page() {
                             skills={landingPageSkills}
                             githubUrl='https://github.com/EduardoGollner0609/GCBarberShop'
                             projectUrl='https://gcbarbershop.netlify.app/' />
-                        <ProjectCard
-                            imgUrl={rossowEngenhariaProjectImg}
-                            title='Rossow Engenharia'
-                            description='Landing page criada para apresentar os serviços da Rossow Engenharia, destacando sua expertise, 
-                            projetos e soluções inovadoras, 
-                            proporcionando uma experiência informativa e profissional para os clientes.'
-                            skills={landingPageSkills}
-                            githubUrl='https://github.com/EduardoGollner0609/RossowEngenharia'
-                            projectUrl='https://rossow-engenharia.netlify.app/' />
                     </div>
                 </section>
             </main >
